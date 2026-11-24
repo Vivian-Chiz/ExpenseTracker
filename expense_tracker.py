@@ -1,0 +1,6 @@
+print("=====My Expense Tracker=====")
+expense_name = input("Enter the name of the expense: ")
+expense_amount = float(input("Enter the amount of the expense: "))
+print("\nExpense Recorded:")
+print("Expense :", expense_name)
+print("Amount: $", expense_amount)
