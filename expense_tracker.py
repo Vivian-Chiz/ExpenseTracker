@@ -1,5 +1,4 @@
 print("=====Welcome To My Expense Tracker=====")
->>>>>>> conflict-a
 expenses = []
 while True:
     expense_name = input("Enter expense name (or type done to exit) : ")
