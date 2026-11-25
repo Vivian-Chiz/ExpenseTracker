@@ -1,4 +1,4 @@
-print("=====My Expense Tracker=====")
+print("=====My Student Monthly Expense Tracker=====")
 expenses = []
 while True:
     expense_name = input("Enter expense name (or type done to exit) : ")
