@@ -17,6 +17,12 @@ while True:
     expenses.append((expense_name, expense_amount))
     print("Expenses added!")
 total = sum(amount for name, amount in expenses)
+expense_count = len(expenses)
 
 print("\n===== Expense Summary =====")
-print(f"Total Amount Spent: ${total:.2f}")
+print(f"Total Expense Amount Spent: ${total:.2f}")
+print(f"Number of Expenses: {expense_count}")
+
+if expense_count > 0:
+    average_expense = total / expense_count
+    print(f"Average Expense Amount: ${average_expense:.2f}")
